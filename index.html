@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <h1><span>C</span>hithravathi.</h1>
+                <ul id="sidemenu">
+                    <li> <a href="#home">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <img src="img/arrow.png" class="arrow" onclick="closemenu()">
+                </ul>
+                <img src="img/menu1.png" class="menu" onclick="openmenu()">
+            </nav>
+            <div class="header-text">
+                <h2>Hi, <br> I'm <span>Chithravathi</span><br>Welcome to my Portfolio...</h2>
+            </div>
+        </div>
+    </section> 
+
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="img/photo ck.jpg" class="photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                     <p class="about-para">As a recent B-tech graduate, I bring a fresh perspective and a solid academic foundation in Computer Science. My passion for Software Development is matched by a strong commitment to learning and contributing effectively to a dynamic professional environment. Eager to apply my theoretical and practical knowledge gained from relevant 
+                        courses and training, I am equipped with analytical skills, teamwork, and adaptability that position me as a valuable asset to your team and a commitment to continuous improvement.
+                     </p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Software Development</span><br>Designing software application</li>
+                            <li><span>Web Development</span><br>Web app developments</li>
+                            <li><span>HTML, CSS and Javascript</span></li>
+                            
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2023 <br> B-Tech</span><br>Srinivas University Institute of Engineering and Technology, Mangaluru</li>
+                            <li><span>2018 - 2019 <br> Higher Secondary</span><br>Viveka Pre-University College-Kota, Udupi</li>
+                            <li><span>2016 - 2017 <br> SSLC</span><br>Ghs Manuru-Padukare, Udupi</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Microsoft technology associate:</span><br>Introduction to Programming using
+                                Javascript<br>2023</li>
+                            <li><span>IBM SkillBuild : edunet Foundation</span><br>Front-end Development <br>2023</li>
+                            <li><span>OpenEDG : JS Institute</span><br>Entry-Level JavaScript Programmer <br>2023-2024</li>
+                            <li><span>Other SkillBuild Certifications</span></li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="img/web img2.png" alt="">
+                    <h1>Web Design</h1>
+                    <p>Creating the visual layout and aesthetics of a website, focusing on user experience, graphics, and overall look.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <img src="img/uiux img2.png" alt="">
+                    <h1>UI/UX Design</h1>
+                    <p>Creating a user interface and experience for a digital product, such as a website, mobile app, or software application.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <img src="img/software2.png" alt="">
+                    <h1>Software Design</h1>
+                    <p>Design, program, build, deploy and maintain software using many different skills and tools.</P>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/e-commerce1.avif" alt="">
+                    <div class="layer">
+                        <h1>E-Commerce Project</h1>
+                        <p>Providing value to customers through an exceptional shopping experience.</p>
+                        <a href="https://siyasfasion-chithrakanchan.netlify.app/"><img src="img/link.png" alt=""></a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="img/portfolio1.avif" alt="">
+                    <div class="layer">
+                        <h1>Portfolio Project</h1>
+                        <p>A responsive design ensures that your site will look and function well on any screen size, providing a seamless experience for visitors.</p>
+                        <a href="https://myportfolio-chithrakanchan.netlify.app/"><img src="img/link.png" alt=""></a>
+                        </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/todo list1.avif" alt="">
+                    <div class="layer">
+                        <h1>ToDo List Project</h1>
+                        <p>Feel the exitement to do the list of work with our reponsive interface</p>
+                        <a href="https://responsive-todolist-chithrakanchan.netlify.app/"><img src="img/link.png" alt=""></a>
+                        </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/login1.avif" alt="">
+                    <div class="layer">
+                        <h1>Login & Registration Interface</h1>
+                        <p>Perfect for websites seeking a streamlined and modern approach to user authentication.</p>
+                        <a href="https://github.com/ChithraKanchan/Login-Registration-Project"><img src="img/link.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/calculator1.avif" alt="">
+                    <div class="layer">
+                        <h1>Calculator Project</h1>
+                        <p>Your simple go-to calculator use it anytime and anywhere... </p>
+                        <a href="https://github.com/ChithraKanchan/Calculator-Project"><img src="img/link.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/simple todo.avif" alt="">
+                    <div class="layer">
+                        <h1>Simple Todo-List</h1>
+                        <p>Make a list of tasks you need to complete or things that you want to do.</p>
+                        <a href="https://github.com/ChithraKanchan/Simple-Todo-List-Project"><img src="img/link.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                   <h1 class="sub-title"> Contact </h1>
+                   <p><img src="img/gmail.png" alt="">chithramkanchan@gmail.com</p>
+                   <p><img src="img/phone.png" alt="">8073925317</p>
+                   <div class="social-icons">
+                    <a href="#"><img src="img/facebook2.png" alt=""></a>
+                    <a href="#"><img src="img/instagram2.png" alt=""></a>
+                    <a href="#"><img src="img/twitter2.png" alt=""></a>
+                    <a href="#"><img src="img/linked in2.png" alt=""></a>
+                    <a href="#"><img src="img/youtube2.png" alt=""></a>
+
+                   </div>
+                   <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Chithra Kanchan <img src="img/heart.png" alt="">, Portfolio Project 2024. <img src="" alt="">
+            </p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html> 
